@@ -76,8 +76,7 @@ p {
   overflow: hidden;
   text-indent: -9999px;
   /* Hides inner circles outside base circle at safari */
-  -webkit-mask-image: url(data:image/png;
-  base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 }
 .preloader:not(:required):before,
 .preloader:not(:required):after {
@@ -575,7 +574,7 @@ section.sayhello p.made {
 }
 .numbers-inner-wrapper > div {
   display: inline-block;
-  width: 24.5%;
+  width: 32.5%;
   text-align: center;
 }
 .numbers-wrapper h4 {
@@ -586,6 +585,12 @@ section.sayhello p.made {
 .numbers-wrapper span {
   font-size: 1.2rem;
   -webkit-text-stroke: 0.2px #627175;
+}
+.numbers-ps {
+  text-align: center;
+  padding: 1.5rem;
+  color: #444;
+  font-size: 17pt;
 }
 hr.num {
   margin-top: 25px;
@@ -804,9 +809,13 @@ span.title {
   font-size: 3em !important;
   color: #1b95e0;
 }
-.fa-envelope-o {
+.fa-envelope {
   font-size: 3em !important;
-  color: #6001d2;
+  color: #670dd6;
+}
+.fa-github-square {
+  font-size: 3em !important;
+  color: #222;
 }
 .pad10 {
   padding: 10px;

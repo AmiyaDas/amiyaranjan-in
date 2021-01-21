@@ -41,8 +41,8 @@ $(document).ready(function() {
           if ($(".numbers-wrapper").is(":visible") == true) {
             var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(" ");
 
-            $("#coded-lines").animateNumber({ number: 160000, numberStep: comma_separator_number_step }, 2000);
-            $("#rendered-pixels").animateNumber({ number: 301783509, numberStep: comma_separator_number_step }, 2000);
+            $("#coded-lines").animateNumber({ number: 160359, numberStep: comma_separator_number_step }, 2000);
+            $("#rendered-pixels").animateNumber({ number: 783, numberStep: comma_separator_number_step }, 2000);
             $("#coffee-cups").animateNumber({ number: 1512, numberStep: comma_separator_number_step }, 2000);
             $("#eaten-nutela").animateNumber({ number: 26, numberStep: comma_separator_number_step }, 2000);
 
