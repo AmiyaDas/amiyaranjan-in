@@ -309,12 +309,12 @@ section.about p {
   font-size: 21px;
 }
 section.about p a {
-  color: #838383;
-  border-bottom: 1px solid #e7e7e7;
+  color: #41b0bf;
+  border-bottom: 1px solid #41b0bf;
   padding-bottom: 1px;
 }
 section.about p a:hover {
-  border-bottom: 1px solid #009ca8;
+  border-bottom: 2px solid #009ca8;
 }
 section.about img {
   display: block;
